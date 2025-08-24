@@ -16,7 +16,7 @@ Without further ado, let me guide you through what I learned this summer by cont
 
 ### TL;DR
 
-Participating in Summer of Bitcoin was amazing—more than I expected:
+Participating in Summer of Bitcoin was amazing, more than I expected:
 
 - Technical growth:
   - I became proficient with Git rebase and rewriting git history.
@@ -25,8 +25,10 @@ Participating in Summer of Bitcoin was amazing—more than I expected:
 - Teamwork:
   - I met an incredible team and learned design patterns and best practices for Rust.
   - Collaborating with them taught me how to work effectively in a team.
-- Support and motivation:
-  - I received a stipend and some goodies from the Summer of Bitcoin orgs—thank you! I felt genuinely appreciated for my work.
+
+I also wanted to thank Summer of Bitcoin for making this internship possible. They also sent a stipend and some goodies, which made me feel that my work was truly valued and recognized.
+
+A huge thanks to the CoinSwap team as well: they guided me, shared their expertise, and made collaborating on the project an incredible learning experience.
 
 See [The PRs I Opened](#the-prs-i-opened)!
 
@@ -50,7 +52,7 @@ In my mind, coinswap is an incredible project, that is very unique, but let me u
 
 My main task during Summer of Bitcoin was to implement wallet encryption and a backup mechanism for Coinswap.
 
-Coinswap wallets are stored was stored in the `wallets/` folder as binary files. This worked functionally, but there was a big issue: the files were completely unencrypted. That meant if malware or any malicious actor gained access to your computer, they could simply decode the file and extract your private keys.
+Coinswap wallets are stored in the `wallets/` folder as binary files. This worked functionally, but there was a big issue: the files were completely unencrypted. That meant if malware or any malicious actor gained access to your computer, they could simply decode the file and extract your private keys.
 
 The goal was clear:
 
